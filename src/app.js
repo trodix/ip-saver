@@ -11,6 +11,7 @@ app.get('/ping', (req, res) => {
   res.send(200, `${clientIpAddress}`);
 });
 
-app.listen(port, () => {
+// '0.0.0.0' force the ip address to be ipv4 to avoid ::ffff: prefix
+app.listen(port, '0.0.0.0', () => {
   console.log(`app is listening on port ${port}`);
 });
