@@ -1,0 +1,17 @@
+{
+  "name": "linux",
+  "version": "1.0.0",
+  "description": "Client that check the current IP Address and hit the server endpoint changed",
+  "main": "src/livebox-watch-ip.js",
+  "scripts": {
+    "start": "node src/livebox-watch-ip.js",
+    "watch": "nodemon src/livebox-watch-ip.js", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "ip-solver",
   "version": "1.0.0",
-  "description": "",
+  "description": "Log the ip address of clients that hits this server",
   "main": "app.js",
   "scripts": {
     "start": "node src/app.js",
